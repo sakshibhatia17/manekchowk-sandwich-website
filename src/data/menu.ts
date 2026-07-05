@@ -28,6 +28,20 @@ import imgMysoreDosa from "@/assets/menu/mysore-dosa.jpg.jpg";
 import imgVegCheeseSand from "@/assets/menu/veg-cheese-sand.jpg.jpg";
 import imgVegSand from "@/assets/menu/veg-sand.jpg.jpeg";
 
+// Latest specific uploads
+import img3in1Mix from "@/assets/menu/3in1-mix.jpg";
+import imgCheeseFries from "@/assets/menu/cheese-fries.jpg";
+import imgCheeseMaggi from "@/assets/menu/cheese-maggi.jpg";
+import imgCheesePulav from "@/assets/menu/cheese-pulav.jpg";
+import imgCheeseSlice from "@/assets/menu/cheese-slice.jpg";
+import imgColdCoffee from "@/assets/menu/cold-coffee.jpg";
+import imgCtcCheese from "@/assets/menu/ctc-cheese.jpg";
+import imgOreoShake from "@/assets/menu/oreo-shake.jpg";
+import imgRegPulav from "@/assets/menu/reg-pulav.jpg";
+import imgTandooriPaneer from "@/assets/menu/tandoori-paneer.jpg";
+import imgVegGrill from "@/assets/menu/veg-grill.jpg";
+import imgVegPuff from "@/assets/menu/veg-puff.jpg";
+
 export type Dish = {
   id: string;
   name: string;
@@ -80,7 +94,7 @@ export const DISHES: Dish[] = [
   // Special Sandwich
   { id: "pine-cheese", name: "Pineapple Cheese Sandwich", category: "Special Sandwich", desc: "Sweet pineapple and cheese", price: 170, rating: 4.8, cal: 400, veg: true, image: dishFries },
   { id: "choc-cheese", name: "Chocolate Cheese Sandwich", category: "Special Sandwich", desc: "Chocolate and melted cheese", price: 170, rating: 4.9, cal: 450, veg: true, popular: true, image: imgChocCheese },
-  { id: "3in1-mix", name: "3 in 1 Mix Sandwich", category: "Special Sandwich", desc: "Triple layered mix sandwich", price: 190, rating: 4.9, cal: 500, veg: true, image: dishBurger },
+  { id: "3in1-mix", name: "3 in 1 Mix Sandwich", category: "Special Sandwich", desc: "Triple layered mix sandwich", price: 190, rating: 4.9, cal: 500, veg: true, image: img3in1Mix },
 
   // Manekchowk Sp. Sandwich
   { id: "ghughra-cheese", name: "Ghughra Cheese Sandwich", category: "Manekchowk Sp. Sandwich", desc: "Our famous ghughra style sandwich", price: 160, rating: 4.9, cal: 480, veg: true, popular: true, image: imgGhughraCheese },
@@ -89,13 +103,13 @@ export const DISHES: Dish[] = [
 
   // Toasted & Grill Sandwich
   { id: "cheese-garlic-grill", name: "Cheese Garlic Grill", category: "Toasted & Grill Sandwich", desc: "Garlic and cheese grilled to perfection", price: 180, rating: 4.8, cal: 420, veg: true, popular: true, image: imgCheeseGarlicGrill },
-  { id: "veg-grill", name: "Vegetable Grill", category: "Toasted & Grill Sandwich", desc: "Grilled veggie sandwich", price: 130, rating: 4.7, cal: 350, veg: true, image: dishVadapav },
+  { id: "veg-grill", name: "Vegetable Grill", category: "Toasted & Grill Sandwich", desc: "Grilled veggie sandwich", price: 130, rating: 4.7, cal: 350, veg: true, image: imgVegGrill },
   { id: "cheese-grill", name: "Cheese Grill", category: "Toasted & Grill Sandwich", desc: "Loaded cheese grill", price: 180, rating: 4.9, cal: 450, veg: true, popular: true, image: heroSandwich },
   
   // Jumbo Grill Sandwich
-  { id: "ctc-cheese", name: "C.T.C. Cheese Sandwich", category: "Jumbo Grill Sandwich", desc: "Jumbo CTC cheese sandwich", price: 180, rating: 4.8, cal: 550, veg: true, image: dishFries },
+  { id: "ctc-cheese", name: "C.T.C. Cheese Sandwich", category: "Jumbo Grill Sandwich", desc: "Jumbo CTC cheese sandwich", price: 180, rating: 4.8, cal: 550, veg: true, image: imgCtcCheese },
   { id: "mexican-club", name: "Mexican Club Sandwich", category: "Jumbo Grill Sandwich", desc: "Jumbo mexican flavor", price: 180, rating: 4.9, cal: 580, veg: true, popular: true, image: dishMexican },
-  { id: "tandoori-paneer", name: "Tandoori Panner Sandwich", category: "Jumbo Grill Sandwich", desc: "Tandoori spiced paneer", price: 190, rating: 4.9, cal: 600, veg: true, popular: true, image: dishPaneer },
+  { id: "tandoori-paneer", name: "Tandoori Panner Sandwich", category: "Jumbo Grill Sandwich", desc: "Tandoori spiced paneer", price: 190, rating: 4.9, cal: 600, veg: true, popular: true, image: imgTandooriPaneer },
 
   // Pizza
   { id: "margherita", name: "Margherita Cheese Pizza", category: "Pizza", desc: "Classic cheese pizza", price: 140, rating: 4.7, cal: 500, veg: true, image: imgMargherita },
@@ -103,26 +117,26 @@ export const DISHES: Dish[] = [
   { id: "cheese-corn-pizza", name: "Cheese Corn Pizza", category: "Pizza", desc: "Sweet corn and cheese", price: 160, rating: 4.7, cal: 580, veg: true, image: imgCheeseCornPizza },
 
   // Slices & Puff & Fries
-  { id: "cheese-slice", name: "Cheese Slice", category: "Slices", desc: "Premium cheese slice", price: 50, rating: 4.6, cal: 150, veg: true, image: dishBurger },
-  { id: "cheese-fries", name: "Cheese French Fries", category: "Fries", desc: "Fries loaded with cheese", price: 90, rating: 4.8, cal: 450, veg: true, popular: true, image: dishFries },
-  { id: "veg-puff", name: "Veg. Puff", category: "Puff", desc: "Crispy veg puff", price: 60, rating: 4.5, cal: 300, veg: true, image: dishVadapav },
+  { id: "cheese-slice", name: "Cheese Slice", category: "Slices", desc: "Premium cheese slice", price: 50, rating: 4.6, cal: 150, veg: true, image: imgCheeseSlice },
+  { id: "cheese-fries", name: "Cheese French Fries", category: "Fries", desc: "Fries loaded with cheese", price: 90, rating: 4.8, cal: 450, veg: true, popular: true, image: imgCheeseFries },
+  { id: "veg-puff", name: "Veg. Puff", category: "Puff", desc: "Crispy veg puff", price: 60, rating: 4.5, cal: 300, veg: true, image: imgVegPuff },
 
   // Maskabun & Bhel & Maggi
   { id: "butter-maskabun", name: "Butter Maskabun", category: "Maskabun", desc: "Classic maskabun with Amul butter", price: 40, rating: 4.8, cal: 280, veg: true, popular: true, image: dishBurger },
   { id: "cheese-bhel", name: "Cheese Bhel", category: "Bhel", desc: "Street style bhel with cheese", price: 90, rating: 4.7, cal: 350, veg: true, image: imgCheeseBhel },
-  { id: "cheese-maggi", name: "Cheese Maggi", category: "Maggi", desc: "Everyone's favorite cheese maggi", price: 100, rating: 4.8, cal: 400, veg: true, popular: true, image: dishFries },
+  { id: "cheese-maggi", name: "Cheese Maggi", category: "Maggi", desc: "Everyone's favorite cheese maggi", price: 100, rating: 4.8, cal: 400, veg: true, popular: true, image: imgCheeseMaggi },
 
   // Shake & Thick Shake
-  { id: "cold-coffee", name: "Sp. Cold Coffee", category: "Shake & Thick Shake", desc: "Special cold coffee thick shake", price: 80, rating: 4.9, cal: 350, veg: true, popular: true, image: dishCoffee },
-  { id: "oreo-shake", name: "Oreo Coffee", category: "Shake & Thick Shake", desc: "Oreo blended coffee", price: 190, rating: 4.8, cal: 450, veg: true, image: dishCoffee },
+  { id: "cold-coffee", name: "Sp. Cold Coffee", category: "Shake & Thick Shake", desc: "Special cold coffee thick shake", price: 80, rating: 4.9, cal: 350, veg: true, popular: true, image: imgColdCoffee },
+  { id: "oreo-shake", name: "Oreo Coffee", category: "Shake & Thick Shake", desc: "Oreo blended coffee", price: 190, rating: 4.8, cal: 450, veg: true, image: imgOreoShake },
 
   // Bhaji Pav
   { id: "bhaji-pav", name: "Bhaji Pav", category: "Bhaji Pav", desc: "Classic bhaji pav in butter", price: 150, rating: 4.9, cal: 550, veg: true, popular: true, image: imgBhajiPav },
   { id: "sp-bhaji", name: "Sp. Manekchowk Bhaji Pav", category: "Bhaji Pav", desc: "Our signature special bhaji pav", price: 200, rating: 4.9, cal: 650, veg: true, popular: true, image: dishBurger },
 
   // Pulav
-  { id: "reg-pulav", name: "Regular Pulav", category: "Pulav", desc: "Street style tawa pulav", price: 150, rating: 4.7, cal: 450, veg: true, image: dishPizza },
-  { id: "cheese-pulav", name: "Cheese Pulav", category: "Pulav", desc: "Pulav loaded with cheese", price: 200, rating: 4.8, cal: 550, veg: true, image: dishPizza },
+  { id: "reg-pulav", name: "Regular Pulav", category: "Pulav", desc: "Street style tawa pulav", price: 150, rating: 4.7, cal: 450, veg: true, image: imgRegPulav },
+  { id: "cheese-pulav", name: "Cheese Pulav", category: "Pulav", desc: "Pulav loaded with cheese", price: 200, rating: 4.8, cal: 550, veg: true, image: imgCheesePulav },
 
   // Dosa & Fancy Dosa
   { id: "mysore-dosa", name: "Mysore Masala Dosa", category: "Dosa", desc: "Spicy mysore masala dosa", price: 160, rating: 4.8, cal: 450, veg: true, image: imgMysoreDosa },
