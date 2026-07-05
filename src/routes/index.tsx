@@ -19,8 +19,8 @@ import {
   Utensils,
 } from "lucide-react";
 
-import heroSandwich from "@/assets/hero-sandwich.jpg";
-import storeInterior from "@/assets/store-interior.jpg";
+import heroSandwich from "@/assets/menu/hero-sandwich.jpg";
+import storeInterior from "@/assets/menu/store-interior.jpg";
 import { DISHES, BRANCHES, TESTIMONIALS } from "@/data/menu";
 import { SectionHeading, SectionEyebrow } from "@/components/site/Section";
 

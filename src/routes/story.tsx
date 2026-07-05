@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import storeInterior from "@/assets/store-interior.jpg";
-import storyStreet from "@/assets/story-street.jpg";
+import storeInterior from "@/assets/menu/store-interior.jpg";
+import storyStreet from "@/assets/menu/story-street.jpg";
 import { SectionHeading } from "@/components/site/Section";
 
 export const Route = createFileRoute("/story")({

@@ -3,7 +3,7 @@ import { MapPin, Phone, Navigation, Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import { BRANCHES } from "@/data/menu";
 import { SectionHeading } from "@/components/site/Section";
-import storeInterior from "@/assets/store-interior.jpg";
+import storeInterior from "@/assets/menu/store-interior.jpg";
 
 export const Route = createFileRoute("/locations")({
   head: () => ({
