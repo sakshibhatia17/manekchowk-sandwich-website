@@ -101,11 +101,10 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Manekchowk Pizza Sandwich [Manekchowk Wala]. Crafted in Ahmedabad.</p>
-          <p>Made with ♥ for sandwich lovers.</p>
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-center gap-2 border-t border-white/5 pt-6 text-xs text-white/40 md:flex-row md:gap-3">
-          <span>Made by Sakshi Bhatia</span>
+          <span>Made by Sakshi Bhatia with ❤️ for sandwich lovers.</span>
           <span className="hidden md:inline">|</span>
           <span>
             For further inquiries, contact:{" "}
