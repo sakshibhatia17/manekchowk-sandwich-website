@@ -23,7 +23,7 @@ export function Footer() {
                   Manekchowk Pizza Sandwich <br />
                   <span className="text-gradient-brand text-xs">[Manekchowk Wala]</span>
                 </p>
-                <p className="text-xs uppercase tracking-[0.25em] text-[color:var(--brand-gold)]">Since 2001</p>
+                <p className="text-xs uppercase tracking-[0.25em] text-[color:var(--brand-gold)]">Since 2007</p>
               </div>
             </div>
             <p className="mt-5 max-w-xs text-sm text-white/70">

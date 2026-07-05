@@ -19,12 +19,12 @@ export const Route = createFileRoute("/story")({
 });
 
 const chapters = [
-  { year: "2001", title: "The Beginning", text: "Founded by Gajendra Singh Rathod with a vision to redefine street food, setting the foundation for what would become an iconic brand." },
+  { year: "2007", title: "The Beginning", text: "Founded by Gajendra Singh Rathod with a vision to redefine street food, setting the foundation for what would become an iconic brand." },
   { year: "2018", title: "First Store", text: "A single counter opens on KK Nagar Road. The famous Cheese Pull sandwich is born, and the mission accelerates." },
   { year: "2020", title: "Through the storm", text: "We doubled down on hygiene, packaging and the cold chain — long before it became mandatory." },
   { year: "2021", title: "The cheese pull heard around Gujarat", text: "The signature drops. Videos go viral. Queues become part of the identity." },
   { year: "2023", title: "The premium turn", text: "Interiors are rebuilt. Uniforms redesigned. Every station rethought like a fine-dining kitchen." },
-  { year: "2026", title: "Franchise-ready", text: "8 branches across Ahmedabad. Standardised recipes. A brand ready to travel beyond Gujarat." },
+  { year: "2026", title: "Franchise-ready", text: "10 branches across Ahmedabad. Standardised recipes. A brand ready to travel beyond Gujarat." },
 ];
 
 function StoryPage() {

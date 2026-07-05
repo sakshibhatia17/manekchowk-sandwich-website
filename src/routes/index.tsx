@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready.",
+          "Premium sandwiches, pizzas, burgers and shakes across 10 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready.",
       },
       { property: "og:url", content: "/" },
     ],
@@ -95,7 +95,7 @@ function Hero() {
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] text-white/80 backdrop-blur">
               <Sparkles className="size-3.5 text-[color:var(--brand-gold)]" />
-              Ahmedabad's Original Since 2001 · 8 branches
+              Ahmedabad's Original Since 2007 · 10 branches
             </span>
           </motion.div>
 
@@ -395,10 +395,10 @@ function SignatureCarousel() {
 /* ---------------- STORY ---------------- */
 function StorySection() {
   const timeline = [
-    { year: "2001", title: "The Beginning", text: "Founded by Gajendra Singh Rathod with a vision to redefine street food." },
+    { year: "2007", title: "The Beginning", text: "Founded by Gajendra Singh Rathod with a vision to redefine street food." },
     { year: "2018", title: "First Store", text: "A single counter on KK Nagar Road. The famous Cheese Pull sandwich is born." },
     { year: "2021", title: "Signature Era", text: "Going viral across Ahmedabad. Waitlists become the norm." },
-    { year: "2026", title: "8 Branches", text: "Premium, hygienic, franchise-ready. Preparing for national scale." },
+    { year: "2026", title: "10 Branches", text: "Premium, hygienic, franchise-ready. Preparing for national scale." },
   ];
 
   return (
@@ -422,7 +422,7 @@ function StorySection() {
           />
           <div className="absolute -bottom-6 left-6 rounded-2xl bg-background/90 p-4 shadow-xl backdrop-blur">
             <p className="text-xs uppercase tracking-widest text-muted-foreground">Est.</p>
-            <p className="font-display text-3xl font-black text-gradient-brand">2001</p>
+            <p className="font-display text-3xl font-black text-gradient-brand">2007</p>
           </div>
         </motion.div>
 
@@ -537,7 +537,7 @@ function WhyChooseUs() {
     { title: "100% Veg", icon: Leaf, text: "A purely vegetarian kitchen, ensuring complete peace of mind." },
     { title: "Authentic Taste", icon: Utensils, text: "The true street food soul of Manek Chowk, refined for you." },
     { title: "Fast Service", icon: Timer, text: "Hot and fresh meals served with lightning speed." },
-    { title: "8 Branches", icon: Store, text: "Always nearby. Conveniently located across Ahmedabad." },
+    { title: "10 Branches", icon: Store, text: "Always nearby. Conveniently located across Ahmedabad." },
   ];
 
   return (
@@ -586,7 +586,7 @@ function BranchesPreview() {
             eyebrow="Find us in Ahmedabad"
             title={
               <>
-                8 branches. <br />
+                10 branches. <br />
                 <span className="text-gradient-brand">One flavor.</span>
               </>
             }

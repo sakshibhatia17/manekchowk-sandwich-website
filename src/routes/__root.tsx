@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Premium sandwiches, pizzas, burgers and shakes crafted with fresh ingredients across 8 branches in Ahmedabad. Order now or explore franchise opportunities.",
+          "Premium sandwiches, pizzas, burgers and shakes crafted with fresh ingredients across 10 branches in Ahmedabad. Order now or explore franchise opportunities.",
       },
       { name: "theme-color", content: "#D32F2F" },
       { property: "og:title", content: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
@@ -97,9 +97,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Manekchowk Pizza Sandwich [Manekchowk Wala]" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
-      { name: "description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
-      { property: "og:description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
-      { name: "twitter:description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
+      { name: "description", content: "Premium sandwiches, pizzas, burgers and shakes across 10 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
+      { property: "og:description", content: "Premium sandwiches, pizzas, burgers and shakes across 10 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
+      { name: "twitter:description", content: "Premium sandwiches, pizzas, burgers and shakes across 10 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8c3f8a8c-c549-4a64-872f-bd1c9dbb9d44/id-preview-cdbf8369--7ae1693b-9624-44f6-a4be-c13665ff8df7.lovable.app-1783154948998.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8c3f8a8c-c549-4a64-872f-bd1c9dbb9d44/id-preview-cdbf8369--7ae1693b-9624-44f6-a4be-c13665ff8df7.lovable.app-1783154948998.png" },
     ],
