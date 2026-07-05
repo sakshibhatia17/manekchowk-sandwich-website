@@ -31,7 +31,7 @@ export function Footer() {
             </p>
             <div className="mt-6 flex gap-3">
               {[
-                { Icon: Instagram, href: "https://www.instagram.com/gaju_banna_1648?igsh=aWRjeXRyZ2Q0ZGRu" },
+                { Icon: Instagram, href: "https://www.instagram.com/manekchowk_pizza_sandwich/" },
                 { Icon: Facebook, href: "#" },
                 { Icon: Youtube, href: "#" }
               ].map(({ Icon, href }, i) => (
