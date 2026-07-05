@@ -87,7 +87,7 @@ export const CATEGORIES = [
 export const DISHES: Dish[] = [
   // Sandwich (Plain)
   { id: "veg-sand", name: "Cheese Chilli Garlic Sandwich", category: "Sandwich (Plain)", desc: "Spicy and cheesy garlic sandwich", price: 190, rating: 4.5, cal: 250, veg: true, popular: true, image: imgVegSand },
-  { id: "aloo-mutter", name: "Aloo Mutter Sandwich", category: "Sandwich (Plain)", desc: "Potato and peas sandwich", price: 50, rating: 4.6, cal: 280, veg: true, image: imgAlooMutter },
+  { id: "aloo-mutter", name: "Sp. Manekchowk Ghughra Sandwich", category: "Sandwich (Plain)", desc: "Special Manekchowk ghughra sandwich", price: 180, rating: 4.8, cal: 320, veg: true, image: imgAlooMutter },
   { id: "jam-plain", name: "Jam Plain Sandwich", category: "Sandwich (Plain)", desc: "Sweet jam sandwich", price: 50, rating: 4.5, cal: 200, veg: true, image: imgJamPlain },
   { id: "bread-butter", name: "Bread Butter Sandwich", category: "Sandwich (Plain)", desc: "Classic bread and Amul butter", price: 60, rating: 4.7, cal: 220, veg: true, image: imgBreadButter },
   { id: "cheese-sand", name: "Cheese Sandwich", category: "Sandwich (Plain)", desc: "Loaded with Amul cheese", price: 100, rating: 4.8, cal: 350, veg: true, popular: true, image: imgCheeseSand },
