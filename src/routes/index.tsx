@@ -611,7 +611,7 @@ function BranchesPreview() {
             >
               <MapPin className="size-6 text-[color:var(--brand-orange)]" />
               <h3 className="mt-4 font-display text-lg font-bold">{b.name}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{b.area}, Ahmedabad</p>
+              <p className="mt-1 text-sm text-muted-foreground line-clamp-1">{b.address}</p>
               <div className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
                 <Timer className="size-3.5" />
                 {b.hours}
