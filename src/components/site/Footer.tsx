@@ -30,10 +30,16 @@ export function Footer() {
               Ahmedabad's most loved sandwich experience. Fresh ingredients. Premium taste. Fast service.
             </p>
             <div className="mt-6 flex gap-3">
-              {[Instagram, Facebook, Youtube].map((Icon, i) => (
+              {[
+                { Icon: Instagram, href: "https://www.instagram.com/gaju_banna_1648?igsh=aWRjeXRyZ2Q0ZGRu" },
+                { Icon: Facebook, href: "#" },
+                { Icon: Youtube, href: "#" }
+              ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target={href !== "#" ? "_blank" : undefined}
+                  rel={href !== "#" ? "noopener noreferrer" : undefined}
                   className="grid size-10 place-items-center rounded-full border border-white/15 bg-white/5 backdrop-blur transition-all hover:bg-gradient-brand hover:border-transparent"
                   aria-label="Social"
                 >

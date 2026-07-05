@@ -91,7 +91,7 @@ export const DISHES: Dish[] = [
   { id: "jam-plain", name: "Jam Plain Sandwich", category: "Sandwich (Plain)", desc: "Sweet jam sandwich", price: 50, rating: 4.5, cal: 200, veg: true, image: imgJamPlain },
   { id: "bread-butter", name: "Bread Butter Sandwich", category: "Sandwich (Plain)", desc: "Classic bread and Amul butter", price: 60, rating: 4.7, cal: 220, veg: true, image: imgBreadButter },
   { id: "cheese-sand", name: "Cheese Sandwich", category: "Sandwich (Plain)", desc: "Loaded with Amul cheese", price: 100, rating: 4.8, cal: 350, veg: true, popular: true, image: imgCheeseSand },
-  { id: "veg-cheese-sand", name: "Vegetable Cheese Sandwich", category: "Sandwich (Plain)", desc: "Veggies and cheese combined", price: 110, rating: 4.9, cal: 380, veg: true, popular: true, image: imgVegCheeseSand },
+  { id: "veg-cheese-sand", name: "Sp. Ghughra Sandwich", category: "Sandwich (Plain)", desc: "Veggies and cheese combined", price: 110, rating: 4.9, cal: 380, veg: true, popular: true, image: imgVegCheeseSand },
   
   // Special Sandwich
   { id: "pine-cheese", name: "Pineapple Cheese Sandwich", category: "Special Sandwich", desc: "Sweet pineapple and cheese", price: 170, rating: 4.8, cal: 400, veg: true, image: dishFries },
