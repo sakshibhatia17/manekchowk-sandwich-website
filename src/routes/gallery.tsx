@@ -2,9 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
-import { DISHES } from "@/data/menu";
-import storeInterior from "@/assets/store-interior.jpg";
-import storyStreet from "@/assets/story-street.jpg";
+import { GALLERY_IMAGES } from "@/data/gallery";
 import { SectionHeading } from "@/components/site/Section";
 
 export const Route = createFileRoute("/gallery")({
@@ -22,11 +20,7 @@ export const Route = createFileRoute("/gallery")({
 });
 
 function GalleryPage() {
-  const items = [
-    ...DISHES.map((d) => ({ src: d.image, alt: d.name, span: "" })),
-    { src: storeInterior, alt: "Store interior", span: "row-span-2" },
-    { src: storyStreet, alt: "Manek Chowk night market", span: "col-span-2" },
-  ];
+  const items = GALLERY_IMAGES;
 
   const [lightbox, setLightbox] = useState<string | null>(null);
 
