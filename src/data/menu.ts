@@ -41,6 +41,8 @@ import imgRegPulav from "@/assets/menu/reg-pulav.jpg";
 import imgTandooriPaneer from "@/assets/menu/tandoori-paneer.jpg";
 import imgVegGrill from "@/assets/menu/veg-grill.jpg";
 import imgVegPuff from "@/assets/menu/veg-puff.jpg";
+import imgButterMaskabunNew from "@/assets/menu/butter-maskabun-new.jpg";
+import imgCheeseSliceNew from "@/assets/menu/cheese-slice-new.jpg";
 
 export type Dish = {
   id: string;
@@ -117,12 +119,12 @@ export const DISHES: Dish[] = [
   { id: "cheese-corn-pizza", name: "Cheese Corn Pizza", category: "Pizza", desc: "Sweet corn and cheese", price: 160, rating: 4.7, cal: 580, veg: true, image: imgCheeseCornPizza },
 
   // Slices & Puff & Fries
-  { id: "cheese-slice", name: "Cheese Slice", category: "Slices", desc: "Premium cheese slice", price: 50, rating: 4.6, cal: 150, veg: true, image: imgCheeseSlice },
+  { id: "cheese-slice", name: "Cheese Slice", category: "Slices", desc: "Premium cheese slice", price: 50, rating: 4.6, cal: 150, veg: true, image: imgCheeseSliceNew },
   { id: "cheese-fries", name: "Cheese French Fries", category: "Fries", desc: "Fries loaded with cheese", price: 90, rating: 4.8, cal: 450, veg: true, popular: true, image: imgCheeseFries },
   { id: "veg-puff", name: "Veg. Puff", category: "Puff", desc: "Crispy veg puff", price: 60, rating: 4.5, cal: 300, veg: true, image: imgVegPuff },
 
   // Maskabun & Bhel & Maggi
-  { id: "butter-maskabun", name: "Butter Maskabun", category: "Maskabun", desc: "Classic maskabun with Amul butter", price: 40, rating: 4.8, cal: 280, veg: true, popular: true, image: dishBurger },
+  { id: "butter-maskabun", name: "Butter Maskabun", category: "Maskabun", desc: "Classic maskabun with Amul butter", price: 40, rating: 4.8, cal: 280, veg: true, popular: true, image: imgButterMaskabunNew },
   { id: "cheese-bhel", name: "Cheese Bhel", category: "Bhel", desc: "Street style bhel with cheese", price: 90, rating: 4.7, cal: 350, veg: true, image: imgCheeseBhel },
   { id: "cheese-maggi", name: "Cheese Maggi", category: "Maggi", desc: "Everyone's favorite cheese maggi", price: 100, rating: 4.8, cal: 400, veg: true, popular: true, image: imgCheeseMaggi },
 
@@ -132,7 +134,6 @@ export const DISHES: Dish[] = [
 
   // Bhaji Pav
   { id: "bhaji-pav", name: "Bhaji Pav", category: "Bhaji Pav", desc: "Classic bhaji pav in butter", price: 150, rating: 4.9, cal: 550, veg: true, popular: true, image: imgBhajiPav },
-  { id: "sp-bhaji", name: "Sp. Manekchowk Bhaji Pav", category: "Bhaji Pav", desc: "Our signature special bhaji pav", price: 200, rating: 4.9, cal: 650, veg: true, popular: true, image: dishBurger },
 
   // Pulav
   { id: "reg-pulav", name: "Regular Pulav", category: "Pulav", desc: "Street style tawa pulav", price: 150, rating: 4.7, cal: 450, veg: true, image: imgRegPulav },
