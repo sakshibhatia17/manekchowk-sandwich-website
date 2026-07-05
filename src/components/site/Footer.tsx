@@ -104,7 +104,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-center gap-2 border-t border-white/5 pt-6 text-xs text-white/40 md:flex-row md:gap-3">
-          <span>Made by Sakshi Bhatia with ❤️ for sandwich lovers.</span>
+          <span>Made by Sakshi Bhatia with ♥︎ for sandwich lovers.</span>
           <span className="hidden md:inline">|</span>
           <span>
             For further inquiries, contact:{" "}
