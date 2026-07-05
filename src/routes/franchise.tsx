@@ -6,11 +6,11 @@ import { SectionHeading } from "@/components/site/Section";
 export const Route = createFileRoute("/franchise")({
   head: () => ({
     meta: [
-      { title: "Franchise — ManekChowk Sandwich" },
-      { name: "description", content: "Own the future of India's sandwich culture. Franchise investment starts at ₹35L with full ops support." },
+      { title: "Franchise — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "Partner with Ahmedabad's fastest growing premium sandwich chain." },
       { property: "og:url", content: "/franchise" },
-      { property: "og:title", content: "Franchise — ManekChowk Sandwich" },
-      { property: "og:description", content: "Proven unit economics. Cinematic brand. Now inviting partners across India." },
+      { property: "og:title", content: "Franchise — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { property: "og:description", content: "Partner with Ahmedabad's fastest growing premium sandwich chain. Now inviting partners across India." },
     ],
     links: [{ rel: "canonical", href: "/franchise" }],
   }),

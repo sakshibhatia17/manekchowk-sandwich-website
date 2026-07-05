@@ -8,11 +8,11 @@ import storeInterior from "@/assets/store-interior.jpg";
 export const Route = createFileRoute("/locations")({
   head: () => ({
     meta: [
-      { title: "Locations — ManekChowk Sandwich" },
-      { name: "description", content: "Find your nearest ManekChowk Sandwich across 8 branches in Ahmedabad." },
+      { title: "Locations — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "Find a Manekchowk Pizza Sandwich [Manekchowk Wala] near you. 8 locations across Ahmedabad." },
       { property: "og:url", content: "/locations" },
-      { property: "og:title", content: "Locations — ManekChowk Sandwich" },
-      { property: "og:description", content: "8 branches across Ahmedabad, all delivering the same signature taste." },
+      { property: "og:title", content: "Locations — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { property: "og:description", content: "Find a Manekchowk Pizza Sandwich [Manekchowk Wala] near you. 8 locations across Ahmedabad." },
     ],
     links: [{ rel: "canonical", href: "/locations" }],
   }),

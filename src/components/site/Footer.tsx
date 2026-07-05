@@ -1,18 +1,28 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Facebook, Youtube, Send } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function Footer() {
   return (
-    <footer className="relative mt-24 overflow-hidden border-t border-border bg-[oklch(0.14_0.005_260)] text-[oklch(0.98_0.02_90)]">
+    <motion.footer
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      className="relative mt-24 overflow-hidden border-t border-border bg-[oklch(0.14_0.005_260)] text-[oklch(0.98_0.02_90)]"
+    >
       <div className="pointer-events-none absolute inset-0 opacity-40 [background:radial-gradient(600px_300px_at_20%_0%,color-mix(in_oklab,var(--brand-orange)_35%,transparent),transparent_60%),radial-gradient(500px_300px_at_90%_10%,color-mix(in_oklab,var(--brand-gold)_25%,transparent),transparent_60%)]" />
 
       <div className="relative mx-auto max-w-7xl px-6 pb-10 pt-20 md:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Manekchowk Sandwich Logo" className="h-10 w-auto object-contain" />
+              <img src="/logo.png" alt="Manekchowk Pizza Sandwich [Manekchowk Wala] Logo" className="h-10 w-auto object-contain" />
               <div>
-                <p className="font-display text-lg font-extrabold leading-none">ManekChowk</p>
+                <p className="font-display text-base font-extrabold leading-tight">
+                  Manekchowk Pizza Sandwich <br />
+                  <span className="text-gradient-brand text-xs">[Manekchowk Wala]</span>
+                </p>
                 <p className="text-xs uppercase tracking-[0.25em] text-[color:var(--brand-gold)]">Since 2001</p>
               </div>
             </div>
@@ -42,7 +52,6 @@ export function Footer() {
                 { to: "/menu", label: "Menu" },
                 { to: "/story", label: "Our Story" },
                 { to: "/franchise", label: "Franchise" },
-                { to: "/offers", label: "Offers" },
                 { to: "/contact", label: "Contact" },
               ].map((l) => (
                 <li key={l.to}>
@@ -91,10 +100,10 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} ManekChowk Sandwich. Crafted in Ahmedabad.</p>
+          <p>© {new Date().getFullYear()} Manekchowk Pizza Sandwich [Manekchowk Wala]. Crafted in Ahmedabad.</p>
           <p>Made with ♥ for sandwich lovers.</p>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }

@@ -81,22 +81,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ManekChowk Sandwich — Ahmedabad's Most Loved Sandwich Experience" },
+      { title: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
       {
         name: "description",
         content:
           "Premium sandwiches, pizzas, burgers and shakes crafted with fresh ingredients across 8 branches in Ahmedabad. Order now or explore franchise opportunities.",
       },
       { name: "theme-color", content: "#D32F2F" },
-      { property: "og:title", content: "ManekChowk Sandwich — Ahmedabad's Most Loved Sandwich Experience" },
+      { property: "og:title", content: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
       {
         property: "og:description",
         content: "Fresh ingredients. Premium taste. Fast service. Authentic street-food flavors, reimagined.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "ManekChowk Sandwich" },
+      { property: "og:site_name", content: "Manekchowk Pizza Sandwich [Manekchowk Wala]" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "ManekChowk Sandwich — Ahmedabad's Most Loved Sandwich Experience" },
+      { name: "twitter:title", content: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
       { name: "description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
       { property: "og:description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },
       { name: "twitter:description", content: "Premium sandwiches, pizzas, burgers and shakes across 8 branches in Ahmedabad. Cinematic taste, fast service, franchise-ready." },

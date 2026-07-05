@@ -10,10 +10,10 @@ import { SectionHeading } from "@/components/site/Section";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — ManekChowk Sandwich" },
-      { name: "description", content: "A cinematic look inside ManekChowk Sandwich — food, stores, and moments." },
+      { title: "Gallery — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "A cinematic look inside Manekchowk Pizza Sandwich [Manekchowk Wala] — food, stores, and moments." },
       { property: "og:url", content: "/gallery" },
-      { property: "og:title", content: "Gallery — ManekChowk Sandwich" },
+      { property: "og:title", content: "Gallery — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
       { property: "og:description", content: "Cinematic food photography from our kitchens and stores." },
     ],
     links: [{ rel: "canonical", href: "/gallery" }],

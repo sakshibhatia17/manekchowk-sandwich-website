@@ -6,6 +6,7 @@ import dishFries from "@/assets/dish-fries.jpg";
 import dishPizza from "@/assets/dish-pizza.jpg";
 import dishBurger from "@/assets/dish-burger.jpg";
 import heroSandwich from "@/assets/hero-sandwich.jpg";
+import dishVegSandwich from "@/assets/veg-sandwich.jpeg";
 
 export type Dish = {
   id: string;
@@ -49,7 +50,7 @@ export const CATEGORIES = [
 
 export const DISHES: Dish[] = [
   // Sandwich (Plain)
-  { id: "veg-sand", name: "Vegetable Sandwich", category: "Sandwich (Plain)", desc: "Fresh vegetable sandwich", price: 50, rating: 4.5, cal: 250, veg: true, image: heroSandwich },
+  { id: "veg-sand", name: "Vegetable Sandwich", category: "Sandwich (Plain)", desc: "Fresh vegetable sandwich", price: 50, rating: 4.5, cal: 250, veg: true, popular: true, image: dishVegSandwich },
   { id: "aloo-mutter", name: "Aloo Mutter Sandwich", category: "Sandwich (Plain)", desc: "Potato and peas sandwich", price: 50, rating: 4.6, cal: 280, veg: true, image: dishVadapav },
   { id: "jam-plain", name: "Jam Plain Sandwich", category: "Sandwich (Plain)", desc: "Sweet jam sandwich", price: 50, rating: 4.5, cal: 200, veg: true, image: dishCoffee },
   { id: "bread-butter", name: "Bread Butter Sandwich", category: "Sandwich (Plain)", desc: "Classic bread and Amul butter", price: 60, rating: 4.7, cal: 220, veg: true, image: dishPaneer },

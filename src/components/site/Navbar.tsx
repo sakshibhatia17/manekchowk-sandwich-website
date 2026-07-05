@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, ShoppingBag } from "lucide-react";
+import { motion } from "framer-motion";
 
 const links = [
   { to: "/", label: "Home" },
@@ -8,7 +9,6 @@ const links = [
   { to: "/story", label: "Our Story" },
   { to: "/locations", label: "Locations" },
   { to: "/gallery", label: "Gallery" },
-  { to: "/offers", label: "Offers" },
   { to: "/franchise", label: "Franchise" },
   { to: "/contact", label: "Contact" },
 ] as const;
@@ -25,7 +25,10 @@ export function Navbar() {
   }, []);
 
   return (
-    <header
+    <motion.header
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled
           ? "glass-strong shadow-[0_10px_40px_-20px_oklch(0_0_0/0.25)]"
@@ -34,9 +37,10 @@ export function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:h-20 md:px-8">
         <Link to="/" className="group flex items-center gap-2">
-          <img src="/logo.png" alt="Manekchowk Sandwich Logo" className="h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
-          <span className="hidden font-display text-xl font-extrabold tracking-tight sm:block">
-            ManekChowk <span className="text-gradient-brand">Sandwich</span>
+          <img src="/logo.png" alt="Manekchowk Pizza Sandwich [Manekchowk Wala] Logo" className="h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+          <span className="hidden font-display text-base font-extrabold tracking-tight sm:block xl:text-lg leading-tight">
+            Manekchowk Pizza Sandwich <br />
+            <span className="text-gradient-brand text-xs xl:text-sm">[Manekchowk Wala]</span>
           </span>
         </Link>
 
@@ -106,6 +110,6 @@ export function Navbar() {
           </Link>
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 }

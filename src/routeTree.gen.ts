@@ -11,7 +11,6 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as StoryRouteImport } from './routes/story'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as OffersRouteImport } from './routes/offers'
 import { Route as MenuRouteImport } from './routes/menu'
 import { Route as LocationsRouteImport } from './routes/locations'
 import { Route as GalleryRouteImport } from './routes/gallery'
@@ -27,11 +26,6 @@ const StoryRoute = StoryRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OffersRoute = OffersRouteImport.update({
-  id: '/offers',
-  path: '/offers',
   getParentRoute: () => rootRouteImport,
 } as any)
 const MenuRoute = MenuRouteImport.update({
@@ -72,7 +66,6 @@ export interface FileRoutesByFullPath {
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRoute
   '/menu': typeof MenuRoute
-  '/offers': typeof OffersRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/story': typeof StoryRoute
 }
@@ -83,7 +76,6 @@ export interface FileRoutesByTo {
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRoute
   '/menu': typeof MenuRoute
-  '/offers': typeof OffersRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/story': typeof StoryRoute
 }
@@ -95,7 +87,6 @@ export interface FileRoutesById {
   '/gallery': typeof GalleryRoute
   '/locations': typeof LocationsRoute
   '/menu': typeof MenuRoute
-  '/offers': typeof OffersRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/story': typeof StoryRoute
 }
@@ -108,7 +99,6 @@ export interface FileRouteTypes {
     | '/gallery'
     | '/locations'
     | '/menu'
-    | '/offers'
     | '/sitemap.xml'
     | '/story'
   fileRoutesByTo: FileRoutesByTo
@@ -119,7 +109,6 @@ export interface FileRouteTypes {
     | '/gallery'
     | '/locations'
     | '/menu'
-    | '/offers'
     | '/sitemap.xml'
     | '/story'
   id:
@@ -130,7 +119,6 @@ export interface FileRouteTypes {
     | '/gallery'
     | '/locations'
     | '/menu'
-    | '/offers'
     | '/sitemap.xml'
     | '/story'
   fileRoutesById: FileRoutesById
@@ -142,7 +130,6 @@ export interface RootRouteChildren {
   GalleryRoute: typeof GalleryRoute
   LocationsRoute: typeof LocationsRoute
   MenuRoute: typeof MenuRoute
-  OffersRoute: typeof OffersRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   StoryRoute: typeof StoryRoute
 }
@@ -161,13 +148,6 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/offers': {
-      id: '/offers'
-      path: '/offers'
-      fullPath: '/offers'
-      preLoaderRoute: typeof OffersRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/menu': {
@@ -222,7 +202,6 @@ const rootRouteChildren: RootRouteChildren = {
   GalleryRoute: GalleryRoute,
   LocationsRoute: LocationsRoute,
   MenuRoute: MenuRoute,
-  OffersRoute: OffersRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   StoryRoute: StoryRoute,
 }

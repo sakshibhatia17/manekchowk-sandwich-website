@@ -7,11 +7,11 @@ import { SectionHeading } from "@/components/site/Section";
 export const Route = createFileRoute("/story")({
   head: () => ({
     meta: [
-      { title: "Our Story — ManekChowk Sandwich" },
-      { name: "description", content: "From a single counter inspired by Ahmedabad's iconic Manek Chowk to 8 premium restaurants." },
+      { title: "Our Story — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "The journey of Manekchowk Pizza Sandwich [Manekchowk Wala] from a single counter to Ahmedabad's most loved brand." },
       { property: "og:url", content: "/story" },
-      { property: "og:title", content: "Our Story — ManekChowk Sandwich" },
-      { property: "og:description", content: "Street-food soul. Premium finish. The ManekChowk journey." },
+      { property: "og:title", content: "Our Story — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { property: "og:description", content: "The journey of Manekchowk Pizza Sandwich [Manekchowk Wala] from a single counter to Ahmedabad's most loved brand." },
     ],
     links: [{ rel: "canonical", href: "/story" }],
   }),

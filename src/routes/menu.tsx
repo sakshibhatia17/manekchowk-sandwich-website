@@ -9,11 +9,11 @@ import { SectionHeading } from "@/components/site/Section";
 export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
-      { title: "Menu — ManekChowk Sandwich" },
-      { name: "description", content: "Explore 50+ chef-crafted sandwiches, pizzas, burgers, shakes and more. Order across Ahmedabad." },
+      { title: "Menu — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "Explore our full menu. Premium sandwiches, cinematic cheese pulls, pizzas, burgers, and shakes." },
       { property: "og:url", content: "/menu" },
-      { property: "og:title", content: "Menu — ManekChowk Sandwich" },
-      { property: "og:description", content: "Explore 50+ chef-crafted items across 9 categories." },
+      { property: "og:title", content: "Menu — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { property: "og:description", content: "Explore our full menu. Premium sandwiches, cinematic cheese pulls, pizzas, burgers, and shakes." },
     ],
     links: [{ rel: "canonical", href: "/menu" }],
   }),

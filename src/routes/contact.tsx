@@ -5,11 +5,11 @@ import { SectionHeading } from "@/components/site/Section";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — ManekChowk Sandwich" },
-      { name: "description", content: "Talk to ManekChowk Sandwich — support, catering, franchise or press." },
+      { title: "Contact — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { name: "description", content: "Talk to Manekchowk Pizza Sandwich [Manekchowk Wala] — support, catering, franchise or press." },
       { property: "og:url", content: "/contact" },
-      { property: "og:title", content: "Contact — ManekChowk Sandwich" },
-      { property: "og:description", content: "We'd love to hear from you. Reach out for orders, catering, or press." },
+      { property: "og:title", content: "Contact — Manekchowk Pizza Sandwich [Manekchowk Wala]" },
+      { property: "og:description", content: "Reach out to our support, catering, and franchise teams." },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
   }),

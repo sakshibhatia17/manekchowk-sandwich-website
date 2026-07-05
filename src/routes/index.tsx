@@ -27,7 +27,7 @@ import { SectionHeading, SectionEyebrow } from "@/components/site/Section";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ManekChowk Sandwich — Ahmedabad's Most Loved Sandwich Experience" },
+      { title: "Manekchowk Pizza Sandwich [Manekchowk Wala] — Ahmedabad's Most Loved Sandwich Experience" },
       {
         name: "description",
         content:
@@ -51,7 +51,6 @@ function HomePage() {
       <WhyChooseUs />
       <BranchesPreview />
       <Testimonials />
-      <OffersStrip />
       <AppPromo />
       <FinalCTA />
     </>
@@ -415,7 +414,7 @@ function StorySection() {
           <div className="absolute -left-6 -top-6 size-40 rounded-full bg-[color:var(--brand-orange)]/20 blur-3xl" />
           <img
             src={storeInterior}
-            alt="ManekChowk restaurant interior"
+            alt="Manekchowk Pizza Sandwich [Manekchowk Wala] restaurant interior"
             width={1600}
             height={1000}
             loading="lazy"
@@ -547,7 +546,7 @@ function WhyChooseUs() {
       <div className="relative mx-auto max-w-7xl px-6 md:px-8">
         <SectionHeading
           align="center"
-          eyebrow="The ManekChowk Difference"
+          eyebrow="The Manekchowk Wala Difference"
           title={
             <>
               Why <span className="text-gradient-brand">Choose Us?</span>
@@ -682,64 +681,6 @@ function Testimonials() {
   );
 }
 
-/* ---------------- OFFERS STRIP ---------------- */
-function OffersStrip() {
-  const [t, setT] = useState({ h: 5, m: 42, s: 18 });
-  useEffect(() => {
-    const id = setInterval(() => {
-      setT((p) => {
-        let { h, m, s } = p;
-        s--;
-        if (s < 0) { s = 59; m--; }
-        if (m < 0) { m = 59; h--; }
-        if (h < 0) { h = 23; }
-        return { h, m, s };
-      });
-    }, 1000);
-    return () => clearInterval(id);
-  }, []);
-
-  return (
-    <section className="mx-auto max-w-7xl px-6 pb-8 md:px-8">
-      <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-brand p-8 text-white md:p-14">
-        <div className="pointer-events-none absolute -right-16 -top-16 size-80 rounded-full bg-white/20 blur-3xl" />
-        <div className="grid gap-8 md:grid-cols-2 md:items-center">
-          <div>
-            <SectionEyebrow>Limited time</SectionEyebrow>
-            <h3 className="mt-4 font-display text-4xl font-black leading-tight md:text-5xl">
-              Buy 1 Get 1
-              <br />on every signature.
-            </h3>
-            <p className="mt-4 max-w-md text-white/85">
-              Every Tuesday. All 8 branches. No coupon needed. Sit in, take away, or order online.
-            </p>
-            <Link
-              to="/offers"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-[color:var(--brand-orange)] transition hover:scale-[1.03]"
-            >
-              See all offers <ArrowRight className="size-4" />
-            </Link>
-          </div>
-          <div className="grid grid-cols-3 gap-3 md:justify-self-end">
-            {[
-              { l: "Hours", v: t.h },
-              { l: "Mins", v: t.m },
-              { l: "Secs", v: t.s },
-            ].map((x) => (
-              <div key={x.l} className="rounded-2xl border border-white/20 bg-white/10 p-5 text-center backdrop-blur-xl">
-                <p className="font-display text-4xl font-black md:text-5xl">
-                  {String(x.v).padStart(2, "0")}
-                </p>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-white/70">{x.l}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 /* ---------------- APP PROMO ---------------- */
 function AppPromo() {
   return (
@@ -752,7 +693,7 @@ function AppPromo() {
               title={
                 <>
                   Order faster on the <br />
-                  <span className="text-gradient-brand">ManekChowk app.</span>
+                  <span className="text-gradient-brand">Manekchowk Wala app.</span>
                 </>
               }
               subtitle="Reorder in one tap. Track your sandwich live. Earn a free one after every 10 orders."
