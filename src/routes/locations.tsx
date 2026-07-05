@@ -63,7 +63,7 @@ function LocationsPage() {
               <div className="p-6">
                 <div className="flex items-start gap-3 text-sm text-muted-foreground">
                   <MapPin className="mt-0.5 size-4 shrink-0 text-[color:var(--brand-orange)]" />
-                  {b.area}, Ahmedabad, Gujarat
+                  {b.address}
                 </div>
                 <div className="mt-2 flex items-start gap-3 text-sm text-muted-foreground">
                   <Clock className="mt-0.5 size-4 shrink-0 text-[color:var(--brand-orange)]" />
@@ -81,7 +81,7 @@ function LocationsPage() {
                     <Phone className="size-4" /> Call
                   </a>
                   <a
-                    href={`https://www.google.com/maps/search/?api=1&query=ManekChowk+Sandwich+${encodeURIComponent(b.name)}+Ahmedabad`}
+                    href={b.mapLink || "#"}
                     target="_blank"
                     rel="noreferrer"
                     className="flex flex-1 items-center justify-center gap-2 rounded-full border border-border py-2.5 text-sm font-semibold hover:bg-muted"

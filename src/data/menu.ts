@@ -110,14 +110,16 @@ export const DISHES: Dish[] = [
 ];
 
 export const BRANCHES = [
-  { name: "KK Nagar Road", area: "Ghatlodia", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Zydus Thaltej", area: "Thaltej", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Ghatlodia", area: "Ghatlodia", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Anand Nagar Road", area: "Satellite", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Vandematram", area: "Gota", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Gota", area: "Gota", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "Science City", area: "Science City", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
-  { name: "New CG Road", area: "Chandkheda", hours: "10 AM – 12 AM", phone: "+91 83207 88313" },
+  { name: "Ahmedabad Food Court", address: "Ahmedabad Food Court, Opp. Karnavati Club, SG Highway, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83207 88313", mapLink: "https://share.google/kX3MEpaUSZVqXhuO8" },
+  { name: "Downtown Food Court", address: "Downtown Food Court, Ring Road, Vaishnodevi, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83207 88313", mapLink: "https://share.google/XgQiSJrHfWhYhk3tB" },
+  { name: "Madhuvrun Row House", address: "1/153, Madhuvrun Row House, KK Nagar Road, Ghatlodia, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83207 88313", mapLink: "https://maps.app.goo.gl/DjYkYpNGdzKVYc6Q9?g_st=aw" },
+  { name: "Karnavati NX Food Court", address: "Karnavati NX Food Court, Zydus, Thaltej, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83207 88313", mapLink: "" },
+  { name: "Krishna Tower", address: "01, Krishna Tower, Opp. IOC Petrol Pump, Anand Nagar Road, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 82398 26561", mapLink: "https://maps.app.goo.gl/9QCxN5sPT85JhSwW6" },
+  { name: "Vandematram Arcade", address: "24, Vandematram Arcade, Vandematram Road, Gota, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 82398 26561", mapLink: "https://maps.app.goo.gl/YDd4FFLgHjgZXxh78" },
+  { name: "Vastrapur Food Court", address: "Vastrapur Food Court, Near GMDC Ground, Vastrapur, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83473 08735", mapLink: "https://maps.app.goo.gl/hzC2fBXz2UFmTqHQ6" },
+  { name: "Swati Complex", address: "01, Swati Complex, Opp. Tejas Society, KK Nagar Road, Ghatlodia, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 83207 88313", mapLink: "https://maps.app.goo.gl/BydhfSXR4EKfXkXy8" },
+  { name: "Foodilon Food Park", address: "Foodilon Food Park, VIP Road, South Bopal, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 88245 88076", mapLink: "https://maps.app.goo.gl/xqC2srJfJxW4KMX58" },
+  { name: "Mangal Jyot Tower", address: "08, Mangal Jyot Tower, Jodhpur Char Rasta, Satellite, Ahmedabad", hours: "10 AM – 12 AM", phone: "+91 98987 19146", mapLink: "https://maps.app.goo.gl/qLN3KinQEgz1LvsCA" },
 ];
 
 export const TESTIMONIALS = [
